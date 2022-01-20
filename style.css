@@ -1,0 +1,30 @@
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carusal-caption{
+    position: absolute;
+    bottom: 220px;
+    left :10%;
+}
+.carusal-caption h4{
+    font-size: 60px;
+}
+
+/* -------- */
+
+.high-item{
+    overflow: hidden;  
+}
+.high-text{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+   
+}
+.high-item img{
+    transition: .5s;
+}
+.high-item:hover img{
+    transform: scale(1.2);
+}
